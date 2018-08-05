@@ -1,0 +1,20 @@
+<?xml  version="1.0" encoding="utf-8" standaload="no"?>
+<!-- 上面一句就是XML的文档声明  -->
+
+<students>
+   <student stuId="01">
+       <name>zs</name>
+<!--   <age>age<23</age>  -->
+       <age>age&lt:23</age>
+       <gender>male</gender>
+   </student>
+      <![CDATA[
+      <student stuId="02">
+       <name>sx</name>
+       <age>age<23</age>
+       <gender>male</gender>
+   </student>
+      ]]>
+
+
+</students>
