@@ -1,4 +1,6 @@
 <?xml  version="1.0" encoding="utf-8" standaload="no"?>
+<!-- 上面一句就是XML的文档声明  -->
+
 <students>
 <student stuId="01">
    <name>张三</name>
