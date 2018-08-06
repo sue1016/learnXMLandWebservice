@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students[
+	<!ELEMENT students (student*)>
+	<!ELEMENT student (name,id,age,empty,anything)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT id (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+	<!ELEMENT empty EMPTY >
+	<!ELEMENT anything ANY>
+	]>
+<students>
+	<student>
+		<name>sue</name>
+		<id>1</id>
+		<age>23</age>
+		<empty></empty>
+		<anything><students></students></anything>
+	</student>
+</students>
