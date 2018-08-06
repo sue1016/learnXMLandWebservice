@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students[
+	<!ELEMENT students (student*)>
+	<!ELEMENT student (name,age)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+	<!ATTLIST student stuNo ID #REQUIRED>
+	]>
+<students>
+	<student  stuNo="01">
+		<name>sue</name>
+		<age>23</age>
+	</student>
+</students>
